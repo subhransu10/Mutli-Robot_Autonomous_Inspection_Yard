@@ -5,6 +5,10 @@
 **Project Duration:** 4–5 weeks  
 **Environment:** Industrial Inspection Yard
 
+
+https://github.com/user-attachments/assets/54e8c18e-f091-40f7-b714-5f28bcfda088
+
+
 ## 1. Project Overview
 
 The objective of this project is to develop a multi-robot autonomous inspection system using two Clearpath Husky A200 mobile robots in a simulated industrial environment.
@@ -15,7 +19,7 @@ Students will implement functionalities related to autonomous inspection, obstac
 
 The goal is **to extend the existing environment and develop a cooperative robotic inspection system rather than build a new simulation from scratch**.
 
-*[Insert Screenshot 1: Overview of the Inspection Yard with both Husky robots and checkpoints]*
+
 
 ## 2. Getting Started
 
@@ -23,7 +27,27 @@ The goal is **to extend the existing environment and develop a cooperative robot
 
 1. Download and install **Unity 2022.3.62f3** using [Unity Hub](https://unity.com/download).
 2. Download the project from this [OneDrive link](). Request access from the instructor if necessary.
-3. Open the provided Unity project and load the Inspection Yard scene.
+3. Open the provided Unity project and load the `Environment_InspectionYard` scene.
+
+**Note:** The environment and both Husky robot models are already provided. However, the robot movement controllers must be implemented as part of the student tasks.
+
+---
+
+### Student 1 — Robot Control, Autonomous Navigation and Inspection
+
+**Objective:** Implement movement controllers for both Husky robots and enable autonomous checkpoint-based inspection.
+
+**Tasks:**
+- Develop a differential-drive movement controller for each Husky.
+- Implement basic forward, backward, and rotational movement using WASD for manual testing.
+- Define navigation paths or waypoints connecting the inspection checkpoints.
+- Enable both Huskies to navigate autonomously to their assigned checkpoints.
+- Implement checkpoint arrival detection and inspection completion status.
+- Implement return-to-start behavior after completing the mission.
+
+**Expected Result:** Two independently controllable Husky robots capable of autonomously navigating between inspection checkpoints and returning to their starting positions.
+
+**Note:** Students may reuse the same controller script for both robots with separate configurations. A simple waypoint-following algorithm is sufficient; implementing a complete SLAM or advanced path-planning system is not required.
 
 ### 2.2 Required Packages
 
@@ -54,7 +78,6 @@ Once the project is loaded, open **Window → Package Manager** and check whethe
 
 **Note:** Do not replace existing pipeline settings or reinstall packages that are already correctly configured.
 
-*[Insert Screenshot 2: Package Manager and Unity project settings]*
 
 ### 2.3 Unity Project Structure
 
@@ -75,7 +98,7 @@ Locate the following objects:
 
 **Note:** Some objects may be located under child GameObjects. Students may reuse existing models, prefabs, and movement scripts.
 
-*[Insert Screenshot 3: Unity Hierarchy showing robots, checkpoints, and environment objects]*
+<img width="327" height="417" alt="Screenshot 2026-10-15 181112" src="https://github.com/user-attachments/assets/b3a59512-2d65-4f48-949c-1af867f9bf36" />
 
 ## 3. Inspection Mission
 
@@ -163,7 +186,7 @@ The project is divided into four modules. Each student is responsible for develo
 
 **Note:** Rule-based task allocation is sufficient. Complex optimization or reinforcement learning is not required.
 
-*[Insert Screenshot 4: Inspection checkpoints, corridor, and mission visualization]*
+<img width="1391" height="841" alt="Screenshot 2026-10-15 180856" src="https://github.com/user-attachments/assets/448e2337-d746-4336-ac34-35817f803a4e" />
 
 ## 5. General Requirements
 
@@ -199,8 +222,3 @@ The combined prototype should demonstrate the six mission stages described in Se
 
 **Important:** Evaluation will focus on correct functionality, integration with the provided project, and the student's understanding of their implementation. Unnecessary complexity is not expected.
 
-## 8. Project Demo
-
-A demonstration of the provided Inspection Yard environment.
-
-*[Insert the GitHub video attachment URL here.]*
