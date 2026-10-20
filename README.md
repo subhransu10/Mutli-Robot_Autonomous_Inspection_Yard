@@ -33,22 +33,6 @@ The goal is **to extend the existing environment and develop a cooperative robot
 
 ---
 
-### Student 1 — Robot Control, Autonomous Navigation and Inspection
-
-**Objective:** Implement movement controllers for both Husky robots and enable autonomous checkpoint-based inspection.
-
-**Tasks:**
-- Develop a differential-drive movement controller for each Husky.
-- Implement basic forward, backward, and rotational movement using WASD for manual testing.
-- Define navigation paths or waypoints connecting the inspection checkpoints.
-- Enable both Huskies to navigate autonomously to their assigned checkpoints.
-- Implement checkpoint arrival detection and inspection completion status.
-- Implement return-to-start behavior after completing the mission.
-
-**Expected Result:** Two independently controllable Husky robots capable of autonomously navigating between inspection checkpoints and returning to their starting positions.
-
-**Note:** Students may reuse the same controller script for both robots with separate configurations. A simple waypoint-following algorithm is sufficient; implementing a complete SLAM or advanced path-planning system is not required.
-
 ### 2.2 Required Packages
 
 Once the project is loaded, open **Window → Package Manager** and check whether the following packages are installed.
