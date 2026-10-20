@@ -108,7 +108,7 @@ The inspection yard contains **six checkpoints**, distributed between the two ro
 
 ## 4. Student Tasks
 
-The project is divided into four modules. Each student is responsible for developing and testing an assigned functionality.
+The project is divided into four modules. Each student is responsible for developing and testing an assigned functionality. So as you can see in the screenshot above, Student 1 can use 01_Inspection (if he/she is working on the camera) and branch all the actors/prefabs in it and so on. This would allow for an easier integration of the modules and also would help the tutors to understand the modules and their functionalities.
 
 ### Student 1 — Autonomous Navigation and Inspection
 
