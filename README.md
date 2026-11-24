@@ -26,7 +26,7 @@ The goal is **to extend the existing environment and develop a cooperative robot
 ### 2.1 Project Setup
 
 1. Download and install **Unity 2022.3.62f3** using [Unity Hub](https://unity.com/download).
-2. Download the project from this [OneDrive link](). Request access from the instructor if necessary.
+2. Download the project from this [OneDrive link](https://unigeit-my.sharepoint.com/:u:/g/personal/s5302091_studenti_unige_it/IQDjVJM6n9jdRpDPWWvlileEAaKX_DeqF9kHDAv6ATLdCFU?e=2Drwra). Request access from the instructor if necessary.
 3. Open the provided Unity project and load the `Environment_InspectionYard` scene.
 
 **Note:** The environment and both Husky robot models are already provided. However, the robot movement controllers must be implemented as part of the student tasks.
